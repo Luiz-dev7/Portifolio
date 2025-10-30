@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="../assets/css/global.css">
+
+
+
+    <title>Luiz portifolio</title>
+
+
+
+
+</head>
+
+    <div class="particulas"></div>
+
+
+<body>
+    <nav class="navegacao">
+        <ul class="menu">
+            <li>
+                <a href="#inicio" class="menu-link">Inicio</a>
+            </li>
+
+            <li>
+                <a href="#sobremim" class="menu-link">sobre mim</a>
+            </li>
+
+            <li>
+                <a href="#projetos" class="menu-link">Projetos </a>
+            </li>
+
+            <li>
+                <a href="#contato" class="menu-link">contato</a>
+            </li>
+
+        </ul>
+    </nav>
+
+    <main id="inicio" class="cabecalho">
+        <img src="/assets/img/clipboard-image-1756330251.png" alt="minha foto" class="foto-perfil">
+        <h1>Luiz Guilherme De Oliveira Alves</h1>
+        <p class="cabecalho-subtitulo">Desenvolvedor Front-end</p>
+    </main>
+
+    <section class="sobre" id="sobremim">
+        <h2 class="sobre-titulo">Sobre mim</h2>
+        <div class="sobre-conteudo">
+            <p class="sobre-paragrafo">Sou Luiz, estudante do segundo semestre de Desenvolvimento De Software
+                Multiplataforma Da Fatec e apaixonado por desenvolvimento frontend. Estou começando minha jornada na
+                área, explorando tecnologias como HTML, CSS, JavaScript e tailwind. Gosto de transformar ideias em
+                interfaces funcionais e estou sempre buscando aprender mais e evoluir com cada projeto.</p>
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2 class="titulo-projeto">Meus projetos</h2>
+        <div class="projetos-conteudo">
+
+            <div class="projeto-card">
+                <div class="caixa-projeto">
+                    <img src="/assets/img/Captura de tela 2025-10-29 163816.png" alt="" class="imagem-projeto">
+                    <h3 class="nome-projeto">Vinyland</h3>
+                    <p class="paragrafo-projeto">E-commece de vinis e itens de Musica</p>
+                </div>
+            </div>
+
+            <div class="projeto-card">
+                <div></div>
+                <img src="/assets/img/Captura de tela 2025-10-29 164122.png" alt="" class="imagem-projeto">
+                <h3 class="nome-projeto">Gamenade</h3>
+                <p class="paragrafo-projeto">Plataforma de estudos e para monitoramento do professor com a turma </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contato" id="form-contato">
+        <h2 class="contato-titulo"> Entre em contato</h2>
+        <form class="formulario-contato" id="contato" onsubmit="enviarwhats(event)">
+            <div class="grupo-form">
+                <input type="text" placeholder="Nome" class="campo-form" id="nome">
+            </div>
+            
+            <div class="grupo-form">
+                <textarea placeholder="Digite sua mensagem" class="campo-form" id="mensagem" rows="5"></textarea>
+            </div>
+
+            <button type="submit" class="botao-form">Envie seu WhatsApp</button>
+
+        </form> 
+    </section>
+
+    <script src="/assets/js/mensagem.js"></script>
+
+</body>
+
+</html>
